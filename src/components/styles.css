@@ -1,0 +1,38 @@
+.main-container{
+    background-color: rgb(122, 122, 122);
+}
+
+h1{
+    text-transform: uppercase;
+    background-color: rgb(65, 65, 78);
+    color: aliceblue;
+    padding: 10px;
+}
+
+ul li{
+    padding: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    border: none;
+    text-transform: uppercase;
+    background-color: darkred;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgray;
+    color: black;
+    border: 1px solid aliceblue;
+}
